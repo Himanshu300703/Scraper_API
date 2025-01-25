@@ -19,6 +19,7 @@ This is a simple API built using Node.js to scrape the latest stories from [Time
    - The server fetches the HTML content from [Time.com](https://time.com).
    - It extracts the titles and links of the latest stories using `JSDOM`.
    - It returns the data as a JSON response.
+   - Server runs on 'http://localhost:3000/latest-stories'.
 3. Any other route will return an error.
 
 ---
